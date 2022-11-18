@@ -8,7 +8,7 @@ function MyList({myList, removeFromMyList}){
     return (
         <div className="grid">
             <Grid>{myListToDisplay}</Grid>
-            <h4>(Click on the pictures to delete them)</h4>
+            <h4>{`(Click on the pictures to delete them)`}</h4>
         </div>
     )
 }
