@@ -45,7 +45,7 @@ function SelectedShow({selectedShow, addToMyList, removeFromMyList, myList}){
             </div>
             <div className="selected_show_pic">
                 <img className="main_pic" src={image.medium} alt={name}/>
-                <Button className="btn_add" onClick={handleClick}>{isSelected ? 'Remove form My List' : 'Add to My List'}</Button>
+                <Button className="btn_add" onClick={handleClick}>{isSelected ? 'Remove from My List' : 'Add to My List'}</Button>
             </div>
             
         </div>
